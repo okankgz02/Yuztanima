@@ -8,9 +8,9 @@ from urllib.request import urlopen
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #cam = cv2.VideoCapture(0)
 
-url='http://192.168.43.1:8080/shot.jpg'
+url='http://192.168.43.1:8080/shot.jpg' #buraya ip kameranızın linkini yapıstıracaksınız
 
-id = input('user id: ')
+id = input('Kullanici id: ')
 sampleNum = 0;
 while (True):
     #ret, img = cam.read()
